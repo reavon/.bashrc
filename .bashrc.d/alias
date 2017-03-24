@@ -1,0 +1,40 @@
+# -*- sh -*-
+
+# grep colors are set in ~/.bashrc.d/grep-colors
+alias grep='grep --color=auto'
+
+# alias for nvim/vim
+if [[ -f /usr/bin/nvim ]]; then
+    alias vi='/usr/bin/nvim'
+elif [[ -f /usr/bin/vim ]]; then
+    alias vi='/usr/bin/vim'
+fi
+
+# ssh forward keys
+alias ssh='ssh -A'
+
+# what is my ip?
+alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
+
+# dnf alias
+alias install='sudo dnf install'
+alias search='dnf search'
+alias remove='sudo dnf remove'
+alias upgrade='sudo dnf upgrade'
+
+# I forget -p. Every. Single. Time.
+alias mkdir='mkdir -p'
+alias mkdird='mkdir $1; cd $1'
+
+# disky things
+alias df='df -h'
+alias du='du -h'
+
+# path shortcuts
+alias cd2='cd ../..'
+alias cd3='cd ../../..'
+alias cd4='cd ../../../..'
+alias cd5='cd ../../../../..'
+alias cdd='cd ~/Dropbox/Documents'
+alias cdp='cd ~/Dropbox/Projects/'
+alias cdv='cd ~/Dropbox/Projects/.virtualenvs'

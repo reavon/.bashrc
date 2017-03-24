@@ -1,0 +1,8 @@
+# -*- mode: sh -*-
+
+# determine vagrant provider
+if [[ -f /usr/sbin/libvirtd ]]; then
+    export VAGRANT_DEFAULT_PROVIDER="libvirtd"
+elif [[ -f `which virtualbox` ]]; then
+    export VAGRANT_DEFAULT_PROVIDER="virtualbox"
+fi

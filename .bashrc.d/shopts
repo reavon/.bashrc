@@ -1,0 +1,28 @@
+# -*- mode: sh -*-
+
+# automatically correct spelling mistakes in 'cd' args
+shopt -s cdspell
+
+# make * expand to dotfile
+shopt -s dotglobs
+
+# bash reloads window size upon re-size
+shopt -s checkwinsize
+
+# hostname completion after @
+shopt -s hostcomplete
+
+# no command no completion
+shopt -s no_empty_cmd_completion 
+
+# save multi-line commands as a single history entry
+shopt -s cmdhist
+
+# append to history files instead of rewriting it
+shopt -s histappend
+
+# reedit a history substitution line if it failed
+shopt -s histreedit
+
+# edit a recalled history line before executing
+shopt -s histverify

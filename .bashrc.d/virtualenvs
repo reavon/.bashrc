@@ -1,0 +1,9 @@
+# -*- mode: sh -*-
+
+# setup python virtualenv path
+if [[ -f ~/Dropbox/Projects/.virtualenvs ]]; then
+    export WORKON_HOME="~/Dropbox/Projects/.virtualenvs"
+else
+    mkdir -p ~/Dropbox/Projects/.virtualenvs
+    export WORKON_HOME="~/Dropbox/Projects/.virtualenvs"
+fi

@@ -1,0 +1,16 @@
+# -*- mode: sh -*-
+
+# set default editor
+if [[ -f /usr/bin/emacs ]]; then
+    export EDITOR="emacs"
+    export VISUAL="emacs"
+elif [[ -f /usr/bin/nvim ]]; then
+      export EDITOR="nvim"
+      export VISUAL="nvim"
+elif [[ -f /usr/bin/vim ]]; then
+      export EDITOR="vim"
+      export VISUAL="vim"
+else
+    export EDITOR="vi"
+    export VISUAL="vi"
+fi

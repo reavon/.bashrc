@@ -1,0 +1,17 @@
+*
+!/.bashrc
+!/.bashrc.d
+!/.bashrc.d/alias
+!/.bashrc.d/dircolors
+!/.bashrc.d/editor
+!/.bashrc.d/grep-colors
+!/.bashrc.d/history
+!/.bashrc.d/pager
+!/.bashrc.d/powerline
+!/.bashrc.d/shopts
+!/.bashrc.d/ssh-agent
+!/.bashrc.d/syspip
+!/.bashrc.d/vagrant
+!/.bashrc.d/virtualenvs
+!/.gitignore.d
+!/.gitignore.d/bash

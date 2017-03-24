@@ -1,0 +1,6 @@
+# -*- mode: sh -*-
+
+# make ls pretty again
+if [[ -x /usr/bin/dircolors ]]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+fi
