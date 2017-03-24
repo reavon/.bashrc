@@ -4,7 +4,7 @@
 shopt -s cdspell
 
 # make * expand to dotfile
-shopt -s dotglobs
+shopt -s dotglob
 
 # bash reloads window size upon re-size
 shopt -s checkwinsize
